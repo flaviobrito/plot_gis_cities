@@ -10,7 +10,7 @@ mapa1 <-
   GetMap(
     center = c(38.7437396, -9.2302434),
     zoom = 10,
-    destfile = "map1.png",
+    destfile = "./images/map1.png",
     maptype = "roadmap"
   )
 
@@ -19,7 +19,7 @@ mapa2 <-
   GetMap.bbox(
     lonR = c(-6, -8),
     latR = c(36, 37),
-    destfile = "map2.png",
+    destfile = "./images/map2.png",
     maptype = "terrain"
   )
 
@@ -28,7 +28,7 @@ mapa3 <-
   GetMap.bbox(
     lonR = c(-5, -6),
     latR = c(36, 37),
-    destfile = "map3.png",
+    destfile = "./images/map3.png",
     maptype = "satellite"
   )
 #Now plot data onto these maps, e.g. these 3 points
@@ -54,6 +54,6 @@ Petropolis_Map <-
   GetMap(
     center = c(petro$lat, petro$lon),
     zoom = 15,
-    destfile = "Petrolopis_City.png",
+    destfile = "./images/Petrolopis_City.png",
     maptype = "roadmap"
   )
