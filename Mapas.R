@@ -1,6 +1,6 @@
 ####################################################################
 ## Plot Points in Map
-#Get base maps from Google. They will be saved in currenct directory
+## Get base maps from Google. They will be saved in images directory
 ####################################################################
 library(RgoogleMaps)
 library(ggmap)
